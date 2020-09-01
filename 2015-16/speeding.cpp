@@ -33,7 +33,7 @@ int N, M, a, b, cur = 0;
 int limit[100];
 
 int main() {
-    setIO("speeding"); 
+    //setIO("speeding"); 
     cin >> N >> M;
     for (int i = 0; i < N; i++){
         cin >> a >> b;
