@@ -44,7 +44,7 @@ int fixedPos(int a){
 bool oneHy = false;
 
 int main() {
-    // setIO("milkorder"); 
+    //setIO("milkorder"); 
     cin >> N >> M >> K;
     for (int i = 0; i < M; i++){
         cin >> hy[i];
@@ -79,9 +79,6 @@ int main() {
             }
         }
     }
-    
-    //for (int i = 1; i < N + 1; i++) cout << final[i] << " ";
-    //cout << endl;
     
     if (isFixed(1)) cout << fixedPos(1) << endl;
     else{
