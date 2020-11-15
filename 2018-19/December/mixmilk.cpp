@@ -32,7 +32,7 @@ void setIO(string s){
 int capacity[3], bucket[3];
 
 int main() {
-    setIO("mixmilk"); 
+    //setIO("mixmilk"); 
     for (int i = 0; i < 3; i++) cin >> capacity[i] >> bucket[i];
         
     int a = 0, b = 1;
