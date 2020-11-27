@@ -41,8 +41,7 @@ int main() {
         for (int j = 0; j < N; j++)
             if (s[j] == i) 
                 buckets += b[j];
-        
-        
+ 
         for (int j = 0; j < N; j++)
             if (t[j] == i)
                 buckets -= b[j];
